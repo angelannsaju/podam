@@ -326,11 +326,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.19</version>
 				<configuration>
-				true<*skip>
-					
-					
-					
-					true<*skip>
+					<true>skip</true>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -481,7 +477,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
+			<groupId>org.apache.logging.log4j<groupId>
 			<artifactId>log4j-jcl</artifactId>
 			<version>${log4j.version}</version>
 			<scope>test</scope>
